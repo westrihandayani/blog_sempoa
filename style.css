@@ -1,0 +1,161 @@
+*{
+	font-family: segoe ui;	
+}
+
+body {	
+	z-index: -1;
+	background: #e7e7e7;
+	overflow-y: hidden;
+}
+
+#tittle {
+  font-family: segoe ui;
+  color: #dda500;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+.container-flex {	
+	margin: 10px auto;
+	width: 815px;
+	height: 549px;
+}
+
+#abacus{
+	width: 100%;
+	height: 82%;
+	margin-bottom: 10px;
+}
+
+#framework {	
+	background-image: url("img/gagang.jpg");
+    background-size: 80px 60px;
+	background-repeat: repeat;
+	height: 100%;
+	width: 92%;
+	padding: 1px;
+	border: 5px solid #2C1910;
+	border-radius: 5px;
+}
+
+#upper-row {		
+	margin: 25px auto 0;	
+	height: 22%;
+	width: 90%;
+	background-color: #B0E0E6;
+}
+
+#lower-row {	
+	margin: 18px auto 0;	
+	height: 60%;
+	width: 90%;
+	background-color: #B0E0E6;
+}
+
+.col-10 {
+	display: block;
+	float: left;
+	width: 10%;
+	height: 100%;
+	margin: 0;
+}
+
+.vertical-line {
+	width: 8%;
+	height: 100%;
+	background-color: #888;
+	border: 1px solid #000;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+#framework {
+	float: left;
+}
+
+#framework img {
+	position: relative;		
+	width: 100%;
+	cursor: pointer;
+	disabl
+}
+
+.kecik5 {
+	bottom: 96px;
+}
+
+.kecik4 {
+	bottom: 192px;
+}
+
+.kecik3 {
+	bottom: 212px;
+}
+
+.kecik2 {
+	bottom: 232px;
+}
+
+.kecik1 {
+	bottom: 252px;
+}
+
+#operators {	
+	float: left;	
+	width: 8%;
+	height: 90%;
+	margin-top: 45px;
+	padding-left: 5px;	
+}
+
+.operator-button {	
+	display: block;		
+	cursor: pointer;
+	width: 100%;
+}
+
+#divide{
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg) ;
+}
+
+#display {		
+	background: #333;
+    background-size: 80px 40px;	
+    border: 2px solid #2C1910;
+	border-radius: 5px;	
+	width: 100%;
+	height: 50px;			
+}
+
+#display p {	
+	color: #CCC;	
+	font-size: 2.6em;	
+	text-align: center;	
+}
+
+footer {
+	font-family: "segoe ui", cursive;
+  	color: #ffa500;
+	text-align: center;
+	margin-top: 15px;	
+}
+
+#copyleft {
+	display: inline-block;
+	text-align: right;
+	margin: 0px;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+
+
